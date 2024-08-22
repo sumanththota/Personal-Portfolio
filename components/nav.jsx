@@ -10,7 +10,7 @@ const links = [
   },
 ];
 
-const nav = () => {
+const Nav = () => {
   const pathname = usePathname();
   console.log(pathname);
   return (
@@ -33,4 +33,4 @@ const nav = () => {
   );
 };
 
-export default nav;
+export default Nav;
